@@ -1,111 +1,70 @@
-# 🏨 IITM-BDM-Hospitality-CaseStudy-HotelSRPaark
+# IITM-BDM-Hospitality-CaseStudy-HotelSRPaark
 
-> **Data-Driven Optimization of Hospitality Operations: A Case Study of Hotel SR Paark, Kavali**  
-> IIT Madras — BS Data Science & Applications | Business Data Management (BDM) Capstone Project
-
----
-
-## 📌 Project Overview
-
-This project analyzes the operational and revenue data of **Hotel SR Paark**, a mid-scale hospitality business located near the APSRTC Bus Stand in Kavali, Andhra Pradesh. The hotel offers 1 suite, 22 deluxe rooms, and banquet services catering to travelers, families, and corporate clients.
-
-Using **primary data collected from physical booking registers (Jan–Dec 2025)**, this project identifies key operational inefficiencies and provides data-backed recommendations to improve occupancy, pricing, and revenue management.
+A Business Data Management capstone project submitted to IIT Madras as part of the BS Data Science & Applications programme. This project applies structured data analysis to uncover operational inefficiencies and revenue gaps in a real-world hospitality business, and proposes evidence-based strategies for improvement.
 
 ---
 
-## 🎯 Problem Statements
+## About the Project
 
-| # | Problem | Description |
-|---|---------|-------------|
-| 1 | **Occupancy & Booking Optimization** | Fluctuating room and banquet occupancy leading to underutilization on weekdays and overbooking during peak seasons |
-| 2 | **Dynamic Pricing** | Static pricing strategy that doesn't reflect demand variability, limiting revenue potential |
-| 3 | **Event Booking Management** | Manual booking system causing scheduling conflicts and missed revenue opportunities |
+The hospitality industry, particularly small and mid-scale hotels in tier-2 cities, often operates without structured data systems. Decisions around pricing, staffing, and room allocation are largely driven by observation and intuition rather than data. This project addresses that gap by building a data-driven framework for a functioning hotel business.
+
+Primary data was collected directly from the hotel's physical booking registers over an entire calendar year, digitized, cleaned, and analyzed using Microsoft Excel. The outcome is a set of practical, implementable recommendations tailored to the specific operational context of the business.
 
 ---
 
-## 🔍 Key Findings
+## Problem Areas Addressed
 
-- 📉 Average daily occupancy: **~34%** of total room capacity (6 rooms/day out of 23)
-- 📈 Peak revenue month: **May 2025 — ₹9,54,500** (wedding + summer travel season)
-- 📉 Lowest revenue month: **March 2025 — ₹1,79,900**
-- 💡 Strong positive correlation (**r = 0.943**) between room occupancy and add-on service usage
-- 💰 Projected annual revenue gain from dynamic pricing: **₹8.82 lakh (~18–22%)**
+**Occupancy Optimization**
+Room and banquet occupancy fluctuates significantly across the year — heavily underutilized on weekdays and during the first quarter, while facing high demand pressure during summer and festive seasons. The absence of demand forecasting or structured booking data makes it difficult to plan resources efficiently.
 
----
+**Revenue Management**
+The hotel follows a fixed pricing model throughout the year regardless of demand conditions. This means revenue is not maximized during high-demand periods and no incentive exists to stimulate bookings during low-demand periods, resulting in wide revenue swings across months.
 
-## 🛠️ Methodology
-
-| Method | Purpose |
-|--------|---------|
-| Descriptive Statistics | Central tendency & variability of occupancy and revenue |
-| Trend & Seasonality Analysis | Monthly demand patterns using Seasonality Index |
-| Occupancy Rate Analysis | % utilization of available room inventory |
-| RevPAR Analysis | Revenue per Available Room for pricing efficiency |
-| Dynamic Pricing Model | Demand-responsive price adjustment simulation |
-| Revenue Contribution Analysis | Room vs. add-on service revenue split |
-| Correlation Analysis | Occupancy vs. add-on service relationship |
-
-**Tools Used:** Microsoft Excel (pivot tables, charts, regression, formulas)
+**Event Booking Inefficiency**
+Banquet and event bookings are managed manually, leading to scheduling conflicts, missed opportunities, and no visibility into booking trends over time.
 
 ---
 
-## 📁 Repository Structure
+## Analytical Approach
+
+The project follows a structured methodology combining qualitative observation with quantitative data analysis:
+
+- **Descriptive Statistics** — Establishes baseline performance benchmarks across occupancy, revenue, and add-on service usage
+- **Trend & Seasonality Analysis** — Identifies monthly and quarterly demand cycles using a seasonality index
+- **Occupancy Rate Analysis** — Measures daily and monthly capacity utilization against total available rooms
+- **RevPAR (Revenue per Available Room)** — Evaluates how effectively each available room is being monetized
+- **Correlation Analysis** — Examines the relationship between room occupancy and add-on service consumption
+- **Dynamic Pricing Simulation** — Models the projected revenue impact of demand-responsive pricing adjustments
+- **Revenue Contribution Analysis** — Breaks down total revenue into room revenue and auxiliary service revenue
+
+All analysis was performed in Microsoft Excel using pivot tables, formulas, charts, and regression tools.
+
+---
+
+## Key Outcomes
+
+The analysis revealed a consistent pattern of seasonal demand imbalance, with the hotel generating a disproportionate share of annual revenue during a small window of peak months. Average daily occupancy remained well below capacity for most of the year, and add-on service revenue was found to be entirely dependent on occupancy levels rather than independent guest purchasing behavior — indicating the absence of any upselling strategy.
+
+A dynamic pricing simulation demonstrated that demand-responsive rate adjustments, combined with targeted weekday promotions and add-on bundling, could meaningfully improve annual revenue without increasing operational costs.
+
+---
+
+## Repository Structure
 
 ```
-BDM-Hotel-SR-Paark-Kavali/
-│
-├── README.md                        ← You are here
-│
+├── README.md
 ├── reports/
-│   ├── proposal.pdf                 ← Project proposal (Oct 2025)
-│   ├── midterm_report.pdf           ← Mid-term submission (Jan 2026)
-│   └── final_report.pdf             ← Final report (Jan 2026)
-│
-└── presentation/
-    └── BDM_PPT.pptx                 ← Project presentation slides
-
+│   ├── proposal.pdf
+│   ├── midterm_report.pdf
+│   └── final_report.pdf
+├── presentation/
+│   └── BDM_PPT.pptx
+└── data/
+    └── Dataset_and_Analysis.xlsx
 ```
 
 ---
 
-## 📊 Dataset Summary
+## License
 
-- **Source:** Physical booking registers of Hotel SR Paark (primary data)
-- **Period:** January 2025 – December 2025 (365 days)
-- **Variables:** Date, Rooms Occupied, Total Revenue (₹), Extra Bed Count, Cold Drinks Count, Stay Type, Remarks
-- **Privacy:** No personally identifiable customer or employee information included
-- **NOC:** Data used with written permission from Hotel SR Paark management
-
----
-
-## 💡 Recommendations
-
-1. **Weekday Discount Pricing** — 10–15% off on weekdays when occupancy < 50%
-2. **Occupancy-Based Price Adjustment** — 10–20% rate hike during peak demand months
-3. **Add-on Service Bundling** — Room + Extra Bed / Room + Cold Drinks packages at check-in
-4. **Flexible Walk-in Pricing** — Controlled discounts (max 15%) for walk-ins on low-demand days
-5. **Weekday Banquet Pricing** — Lower banquet rates on weekdays to attract corporate/local events
-6. **Customer Loyalty Program** — Repeat stay incentives (5% off or free add-on)
-7. **Digital Record Keeping** — Standardized Excel-based daily tracking for better forecasting
-
----
-
-## 👤 Author
-
-**Mannepalli Bala Praharsha**  
-Roll No.: 24F1002193  
-📧 24F1002193@ds.study.iitm.ac.in  
-🔗 [LinkedIn](https://linkedin.com/in/mannepalli-bala-praharsha) | [GitHub](https://github.com/balapraharsha)  
-IIT Madras — BS Data Science & Applications
-
----
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).  
-All recommendations are business-specific and intended solely for academic purposes.  
-IIT Madras does not endorse the findings or recommendations of this project.
-
----
-
-> *"Without data, you're just another person with an opinion."* — W. Edwards Deming
+MIT License
