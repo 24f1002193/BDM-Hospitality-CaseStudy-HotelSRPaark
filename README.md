@@ -57,10 +57,9 @@ A dynamic pricing simulation demonstrated that demand-responsive rate adjustment
 │   ├── proposal.pdf
 │   ├── midterm_report.pdf
 │   └── final_report.pdf
-├── presentation/
-│   └── BDM_PPT.pptx
-└── data/
-    └── Dataset_and_Analysis.xlsx
+└── presentation/
+    └── BDM_PPT.pptx
+
 ```
 
 ---
