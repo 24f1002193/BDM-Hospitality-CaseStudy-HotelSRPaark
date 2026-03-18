@@ -1,59 +1,22 @@
-# 📄 Reports
+# Reports
 
-This folder contains all three official submission documents for the BDM Capstone Project submitted to **IIT Madras — BS Data Science & Applications**.
-
----
-
-## 📁 Files
-
-### 1. `proposal.pdf`
-- **Submitted:** October 12, 2025
-- **Purpose:** Initial project proposal outlining the research scope, problem statements, methodology, and expected timeline
-- **Contents:**
-  - Executive Summary
-  - Organisation Background (Hotel SR Paark)
-  - Problem Statements (Occupancy, Pricing, Event Booking)
-  - Problem-Solving Approach
-  - Work Breakdown Structure (WBS)
-  - Gantt Chart (Oct–Nov 2025)
-  - Expected Outcomes
+This folder contains the three official submission documents prepared across the different stages of the BDM capstone project. Each report builds on the previous one — from defining the problem and planning the approach, to executing the analysis and delivering final recommendations.
 
 ---
 
-### 2. `midterm_report.pdf`
-- **Submitted:** January 4, 2026
-- **Purpose:** Mid-term progress report covering data collection, metadata, descriptive statistics, and initial findings
-- **Contents:**
-  - Proof of Originality (NOC, hotel photos, manager interview)
-  - Metadata & Variable Definitions
-  - Descriptive Statistics (Mean, Median, Mode, SD)
-  - Analysis Process (Trend, Regression, Elasticity)
-  - Results & Findings:
-    - Daily Room Occupancy Trend
-    - Seasonal Revenue Variation
-    - Occupancy vs Revenue Relationship
-    - Add-on Services Contribution
+## Files
+
+### proposal.pdf
+The project proposal was the starting point of the engagement. It establishes the context of the business, defines the three core problem statements around occupancy, pricing, and event management, and lays out the research methodology. It includes a Work Breakdown Structure and a Gantt chart covering the full project timeline from data collection through final submission. The proposal also outlines the ethical framework for data collection, including privacy considerations and the consent process with hotel management.
+
+### midterm_report.pdf
+The mid-term report marks the transition from planning to execution. It documents the proof of originality of the primary data, including the hotel's No Objection Certificate, site photographs, and a recorded interaction with hotel management. The report presents the metadata structure of the dataset, explains each variable, and provides a full descriptive statistical summary covering measures of central tendency, variability, and frequency patterns. Early findings from trend analysis, regression, and price elasticity assessment are also included, giving an initial picture of the occupancy and revenue behavior at the hotel.
+
+### final_report.pdf
+The final report is the complete analytical deliverable. It presents seven analytical methods in detail — each with its formula, justification, and business relevance — followed by results across monthly occupancy trends, RevPAR performance, correlation between occupancy and add-on services, revenue distribution, and a dynamic pricing impact simulation. The interpretation section connects statistical findings to real operational implications, and the recommendations section provides ten specific, actionable strategies the business can adopt. A summary table maps each identified problem to its supporting evidence and corresponding recommendation.
 
 ---
 
-### 3. `final_report.pdf`
-- **Submitted:** January 30, 2026
-- **Purpose:** Final comprehensive report with complete analysis, interpretations, and business recommendations
-- **Contents:**
-  - Detailed Methodology (7 analytical methods)
-  - Monthly Occupancy Rate Analysis
-  - RevPAR Trend Analysis
-  - Correlation Analysis (r = 0.943)
-  - Monthly Revenue Distribution
-  - Dynamic Pricing Impact Simulation (₹8.82L projected gain)
-  - Full Interpretation of Results
-  - 10 Business Recommendations
-  - Summary Table (Problem → Evidence → Recommendation)
+## Reading Order
 
----
-
-## 📌 Note
-
-All reports are individual academic submissions.  
-Data used in these reports is sourced from Hotel SR Paark with written permission (NOC).  
-IIT Madras does not endorse the findings or recommendations in these reports.
+For the clearest understanding of the project, the reports are best read in order: proposal → midterm → final. Each document assumes familiarity with the context established in the one before it.
