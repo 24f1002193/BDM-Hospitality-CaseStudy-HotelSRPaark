@@ -61,11 +61,9 @@ BDM-Hotel-SR-Paark-Kavali/
 │   ├── midterm_report.pdf           ← Mid-term submission (Jan 2026)
 │   └── final_report.pdf             ← Final report (Jan 2026)
 │
-├── presentation/
-│   └── BDM_PPT.pptx                 ← Project presentation slides
-│
-└── data/
-    └── Dataset_and_Analysis.xlsx    ← Primary dataset + analysis sheets (Jan–Dec 2025)
+└── presentation/
+    └── BDM_PPT.pptx                 ← Project presentation slides
+
 ```
 
 ---
