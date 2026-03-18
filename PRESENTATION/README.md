@@ -1,44 +1,19 @@
-# 📊 Presentation
+# Presentation
 
-This folder contains the PowerPoint presentation for the BDM Capstone Project.
-
----
-
-## 📁 File
-
-### `BDM_PPT.pptx`
-- **Project:** Data-Driven Optimization of Hospitality Operations: A Case Study of Hotel SR Paark, Kavali
-- **Author:** Mannepalli Bala Praharsha (Roll No. 24F1002193)
-- **Institution:** IIT Madras — BS Data Science & Applications
+This folder contains the slide deck created for the BDM capstone project. The presentation is designed to communicate the full arc of the project — from problem identification to data analysis to business recommendations — in a concise, visually structured format suitable for academic evaluation.
 
 ---
 
-## 🗂️ Presentation Coverage
+## File
 
-The slide deck summarizes the entire project including:
+### BDM_PPT.pptx
 
-| Section | Content |
-|---------|---------|
-| Introduction | Hotel background, location, services offered |
-| Problem Statements | Occupancy issues, static pricing, manual booking system |
-| Methodology | Data collection approach, tools, analytical methods |
-| Key Findings | Occupancy trends, RevPAR, revenue distribution, add-on analysis |
-| Dynamic Pricing Simulation | Projected ₹8.82L annual revenue improvement |
-| Recommendations | 10 actionable business recommendations |
-| Conclusion | Summary of insights and next steps |
+The presentation condenses the key elements of the final report into slides, making the findings accessible to an audience that may not read the full written report. It opens with the business context and problem statements, walks through the analytical methodology, and presents the most significant findings using charts and visual summaries. The closing section covers the recommended strategies and their expected impact on hotel performance.
+
+The slide deck is particularly useful for quickly understanding the project's scope and conclusions without going through the detailed reports. Charts covering occupancy trends, RevPAR, revenue distribution, correlation analysis, and the dynamic pricing simulation are all included.
 
 ---
 
-## 🛠️ How to View
+## Viewing
 
-Open with:
-- **Microsoft PowerPoint** (recommended)
-- **Google Slides** — Upload via [slides.google.com](https://slides.google.com)
-- **LibreOffice Impress** (free alternative)
-
----
-
-## 📌 Note
-
-This presentation is intended for academic evaluation purposes only.  
-IIT Madras does not endorse the findings or recommendations presented in this deck.
+The file can be opened with Microsoft PowerPoint, Google Slides, or LibreOffice Impress. For the best rendering of charts and formatting, Microsoft PowerPoint is recommended.
